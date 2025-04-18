@@ -159,6 +159,6 @@ Sebagai dasar untuk konfigurasi perangkat jaringan (Router dan Switch) pada Peka
 
 **7. Lampiran**
 
-*   [(Link ke file .pkt)](https://github.com/ZakiZaidan/Kelompok-8-DMJK/blob/aa95625a5f6b56b9a4e30cb5f77c96b5f0a38c21/file%20.pkt/Topologi_UAS_Minggu10.pkt)
+*   [(Link ke file .pkt)](https://github.com/ZakiZaidan/Kelompok-8-DMJK/blob/c8550bd50791be759a95e7781a1d446921138f89/Tugas_Pekan_10/Topologi_UAS_Minggu10.pkt)
 
 ---
