@@ -9,7 +9,7 @@
 3.  **Amalia Tiara Rezfani** - Network Services Specialist
 4.  **Faradila Zakiah Nur Hafitsa** - Security & Documentation Specialist
 
-**Tanggal Pengumpulan:** Junat, [Pekan 10], [2025]
+**Tanggal Pengumpulan:** Jumat, [Pekan 10], [2025]
 
 ---
 
