@@ -22,7 +22,7 @@
 
 ---
 ## 1. Link File Simulasi
-[Unduh File Simulasi .pkt](https://link-to-your-file.com)
+[Unduh File Simulasi .pkt](https://github.com/ZakiZaidan/Kelompok-8-DMJK/blob/main/Tugas_Pekan_11/Topologi_UAS_Minggu11.pkt)
 
 ## 2. Screenshot Topologi & Penjelasan
 
