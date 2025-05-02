@@ -31,7 +31,7 @@
 
 ###  Link File Simulasi
 
- File simulasi Cisco Packet Tracer: [https://github.com/ZakiZaidan/Kelompok-8-DMJK/blob/773c29ebdcaf11c10bf58ed566276a61607d688d/Tugas_Pekan_12/Topologi_UAS_Minggu12.pkt]
+ [File simulasi Cisco Packet Tracer:](https://github.com/ZakiZaidan/Kelompok-8-DMJK/blob/773c29ebdcaf11c10bf58ed566276a61607d688d/Tugas_Pekan_12/Topologi_UAS_Minggu12.pkt)
 
 ---
 
