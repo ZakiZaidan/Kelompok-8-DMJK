@@ -86,10 +86,10 @@ Router(config)#exit
 ```
 DHCP memastikan setiap perangkat mendapatkan alamat IP secara otomatis, lengkap dengan gateway dan subnet mask yang sesuai. Sementara itu, DNS digunakan untuk memudahkan komunikasi dengan perangkat lain melalui nama domain, menggunakan server DNS publik (8.8.8.8) untuk resolve alamat. Dengan konfigurasi ini, jaringan dapat berjalan lebih efisien tanpa perlu pengaturan IP manual pada setiap perangkat.
 
-![alt text]("Image/image1.png")
+![alt text](Image/image1.png)
 
 **Gambar 1. Departemen IT & Departemen Keuangan**
-![alt text]("Image/image2.png")
+![alt text](Image/image2.png)
   
   Pada gambar tersebut kedua PC disetting menggunakan mode DHCP. dan terdapat status "DHCP request successful", artinya permintaan IP otomatis berhasil.
   - PC0 mendapat IP: 192.168.10.12, gateway: 192.168.10.1
@@ -103,7 +103,7 @@ Ini untuk memastikan setiap departemen (misalnya, IT dan Keuangan) berada di jar
 
 **Gambar 2. Departemen SDM & Server Farm**
 
-![alt text]("Image/image3.png")
+![alt text](Image/image3.png)
 
 Gambar menunjukkan bahwa perangkat PC75 dan Server0 berhasil memperoleh alamat IP secara otomatis dari DHCP server. Keduanya menampilkan status "DHCP request successful" yang menandakan bahwa permintaan DHCP berhasil dan perangkat telah mendapatkan:
    - Alamat IP sesuai pool DHCP masing-masing subnet,
@@ -120,7 +120,7 @@ Ini dapat dimanfaatkan untuk pengujian komunikasi lintas subnet antar perangkat 
 
 
 ### Gambar 3. Departemen Marketing & Departemen Operasional
-![alt text]("Image/image4.png")
+![alt text](Image/image4.png)
 
 Pada gambar 4 ini juga memperlihatkan pengujian alokasi IP dinamis (DHCP) pada client, yang ditunjukkan oleh dua perangkat _PC108 mendapatkan IP 192.168.60.12_ dan _PC125 juga mendapatkan IP 192.168.60.12_
 
@@ -128,7 +128,7 @@ Pada gambar 4 ini juga memperlihatkan pengujian alokasi IP dinamis (DHCP) pada c
 
 ### Hasil Pengujian Konektivitas NAT
 
-![alt text]("Image/image5.png")
+![alt text](Image/image5.png)
 
 **1. Konfigurasi pada Router1**
 
