@@ -56,16 +56,16 @@ Tabel berikut menunjukkan bahwa semua pengujian ping menghasilkan **Request Time
 
 | No | Sumber (Departemen) | IP Sumber (Contoh) | Tujuan (Departemen) | IP Tujuan (Contoh) | Hasil Ping | Screenshot | Alasan Teknis |
 |----|----------------------|--------------------|----------------------|---------------------|-------------|-------------|----------------|
-| 1  | IT (VLAN 10)         | 192.168.10.10      | Keuangan             | 192.168.20.10       | ❌ Request Timed Out | ![Tugas_Pekan_14/image1.png]() | ICMP tidak diizinkan oleh ACL |
-| 2  | IT                   | 192.168.10.10      | SDM                  | 192.168.30.10       | ❌ Request Timed Out | ![Tugas_Pekan_14/image1.png]() | Semua ping diblokir oleh ACL |
-| 3  | Keuangan (VLAN 20)   | 192.168.20.10      | Server Room          | 192.168.100.10      | ❌ Request Timed Out | ![Tugas_Pekan_14/image2.png]() | Hanya HTTP yang diizinkan, ICMP diblok |
-| 4  | Keuangan             | 192.168.20.10      | SDM                  | 192.168.30.10       | ❌ Request Timed Out | ![Tugas_Pekan_14/image2.png]() | Diblokir oleh ACL antara subnet |
-| 5  | SDM (VLAN 30)        | 192.168.30.10      | Keuangan             | 192.168.20.10       | ❌ Request Timed Out | ![Tugas_Pekan_14/image3.png]() | Hanya boleh akses internet, bukan internal |
-| 6  | SDM                  | 192.168.30.10      | Server Room          | 192.168.100.10      | ❌ Request Timed Out | ![Tugas_Pekan_14/image3.png]() | ICMP tidak diizinkan |
-| 7  | Marketing (VLAN 50)  | 192.168.50.10      | Keuangan             | 192.168.20.10       | ❌ Request Timed Out | ![Tugas_Pekan_14/image4.png]() | Diblokir oleh ACL antar departemen |
-| 8  | Marketing            | 192.168.50.10      | Server Room          | 192.168.100.10      | ❌ Request Timed Out | ![Tugas_Pekan_14/image4.png]() | ICMP tidak diizinkan |
-| 9  | Operasional (VLAN 60)| 192.168.60.10      | Server Room          | 192.168.100.10      | ❌ Request Timed Out | ![Tugas_Pekan_14/image5.png]() | Hanya DNS/HTTP diizinkan, ICMP tidak |
-| 10 | Operasional          | 192.168.60.10      | Keuangan             | 192.168.20.10       | ❌ Request Timed Out | ![Tugas_Pekan_14/image5.png]() | Akses antar subnet diblok oleh ACL |
+| 1  | IT (VLAN 10)         | 192.168.10.10      | Keuangan             | 192.168.20.10       | ❌ Request Timed Out | ![a](Tugas_Pekan_14/image1.png) | ICMP tidak diizinkan oleh ACL |
+| 2  | IT                   | 192.168.10.10      | SDM                  | 192.168.30.10       | ❌ Request Timed Out | ![a](Tugas_Pekan_14/image1.png) | Semua ping diblokir oleh ACL |
+| 3  | Keuangan (VLAN 20)   | 192.168.20.10      | Server Room          | 192.168.100.10      | ❌ Request Timed Out | ![a](Tugas_Pekan_14/image2.png) | Hanya HTTP yang diizinkan, ICMP diblok |
+| 4  | Keuangan             | 192.168.20.10      | SDM                  | 192.168.30.10       | ❌ Request Timed Out | ![a](Tugas_Pekan_14/image2.png) | Diblokir oleh ACL antara subnet |
+| 5  | SDM (VLAN 30)        | 192.168.30.10      | Keuangan             | 192.168.20.10       | ❌ Request Timed Out | ![a](Tugas_Pekan_14/image3.png) | Hanya boleh akses internet, bukan internal |
+| 6  | SDM                  | 192.168.30.10      | Server Room          | 192.168.100.10      | ❌ Request Timed Out | ![a](Tugas_Pekan_14/image3.png) | ICMP tidak diizinkan |
+| 7  | Marketing (VLAN 50)  | 192.168.50.10      | Keuangan             | 192.168.20.10       | ❌ Request Timed Out | ![a](Tugas_Pekan_14/image4.png) | Diblokir oleh ACL antar departemen |
+| 8  | Marketing            | 192.168.50.10      | Server Room          | 192.168.100.10      | ❌ Request Timed Out | ![a](Tugas_Pekan_14/image4.png) | ICMP tidak diizinkan |
+| 9  | Operasional (VLAN 60)| 192.168.60.10      | Server Room          | 192.168.100.10      | ❌ Request Timed Out | ![a](Tugas_Pekan_14/image5.png) | Hanya DNS/HTTP diizinkan, ICMP tidak |
+| 10 | Operasional          | 192.168.60.10      | Keuangan             | 192.168.20.10       | ❌ Request Timed Out | ![a](Tugas_Pekan_14/image5.png) | Akses antar subnet diblok oleh ACL |
 """
 
 ## 3. Troubleshooting dan Perbaikan Masalah
